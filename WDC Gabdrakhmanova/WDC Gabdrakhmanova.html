@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+
+    body {
+      margin:50px;
+
+}
+html{
+  background-color: #AC9F69;
+}
+#pic1{
+  top:1%;
+  left:80%;
+  position:absolute;
+  background-color:white;
+}
+#p1{
+    margin:center;
+  border:5px #4f7969;
+    border-style:dotted groove dotted;
+  padding:6px;
+  margin:10px;
+
+}
+
+</style>
+<title>WDC</title>
+</head>
+
+<body>
+
+<form name="WDC Registration Form">
+ <h1>Register Geek Nation</h1>
+       <br/><br/>
+ <div id="pic1">
+             <img src="images/wdc.png" width="150" height="220"/>
+  </div>
+    <p>WDC is an annual conference for young web developers.</p><p> Developers register for the event online and
+      can reserve a pass for specific dates of the event for their entire web development team.</p>
+
+    <hr/>
+<br/><br/>
+ <div id="p1">
+Name of the web company: <input type="text" name="company"
+ placeholder="Name of the Web Company"/>
+<br/><br/>
+
+Full name of the contact person for the web company: <input type="text" name="First"  placeholder="Name"/>
+ <input type="text" name="Last" size="40"  placeholder="Lastname"/>
+<br/><br/>
+
+<label for="email">Email: </label>
+<input type="email" name="email" id="email" placeholder="you@domain.com"/>
+ <input type="submit" />
+<br/><br/>
+
+ <label for="url"> Website: </label>
+ <input type="url" name="url" id="url"  placeholder="URL"/>
+ <input type="submit" />
+ <br/><br/>
+
+ <label for="date"> Date:</label>
+ <input type="date" name="date" id="date" min="2022-03-15" max="2022-03-20"/>
+ <input type="submit" />
+ <br/><br/>
+
+ <label for="points">Number of attendees:</label>
+ <input type="number" name="attendees" id="points" min="1" />
+ <input type="submit" />
+<br/><br/>
+
+ <input type="reset" value="Clear Form"/>
+<input type="submit" value="Submit"/>
+</form>
+
+</div>
+
+</body>
+</html>
